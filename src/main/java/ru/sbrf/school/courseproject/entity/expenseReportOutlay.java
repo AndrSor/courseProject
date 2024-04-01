@@ -1,2 +1,8 @@
-package ru.sbrf.school.courseproject.entity;public record expenseReportOutlay() {
+package ru.sbrf.school.courseproject.entity;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public record expenseReportOutlay() {
+
 }

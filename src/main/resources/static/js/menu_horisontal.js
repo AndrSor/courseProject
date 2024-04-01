@@ -1,25 +1,25 @@
+<div class="menu horizontal menu-horizontal">
+    <ul class="root static">
+        <li class="static selected">
+            <a class="static selected menu-item" href="/" accesskey="1">
+				<span class="additional-background">
+					<span class="menu-item-text">Домашняя</span>
+				</span>
+            </a>
+        </li>
+        <li class="static">
+            <a class="static menu-item" href="/sites/org">
+				<span class="additional-background">
+					<span class="menu-item-text">Организации</span>
+				</span>
+            </a>
+        </li>
+        <li class="static">
+            <a class="static menu-item" href="/sites/dep">
+				<span class="additional-background">
+					<span class="menu-item-text">Документы</span>
+				</span>
+            </a>
+        </li>
+    </ul>
 </div>
-</div>
-</div>
-<div class="s4-die">
-
-
-</div>
-</div>
-</div>
-
-
-
-
-
-
-
-</div>
-</div>
-</div>
-
-<div id=overlay class=modal onclick=hideModal() style=z-index:1050;position:fixed;background-color:#505050;opacity:0.5;-moz-opacity:0.5;filter:alpha(opacity=50);width:100%;height:100%;top:0;left:0;cursor:pointer;display:none;></div>
-</body>
-</html>
-
-
