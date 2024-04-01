@@ -1,0 +1,414 @@
+a,a:hover,a:visited,.a {
+	color:#0072BC;
+	cursor:pointer;
+}
+
+
+table {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 8pt;
+	color: #676767;
+}
+
+
+.modal {
+	z-index:1060;
+	left:25%;
+	top:10%;
+	position:fixed;
+	display:none;
+	width:50%;
+	height:70%;
+	overflow:auto;
+	background-color:#FFFFFF;
+}
+
+.overlay {
+	z-index:1050;
+	position:fixed;
+	background-color:#505050;
+	opacity:0.5;
+	-moz-opacity:0.5;
+	filter:alpha(opacity=50);
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	cursor:pointer;
+	display:none;
+}
+
+.edit-modal {
+	height:100%;
+}
+
+.modal-body {
+	min-height: calc(100% - 220px) !important;
+}
+
+
+.sp-loader {
+	z-index:50;
+	position:fixed;
+	background-color:#FFFFFF;
+	opacity:0.7;
+	-moz-opacity:0.7;
+	filter:alpha(opacity=70);
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	background-image:url('/img/loading_10.gif');
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+
+
+
+
+
+.sp-h-padding {
+	display: block;
+	height: 15px;
+}
+
+.sp-container {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.sp-container-left {
+	display: flex;
+	flex-direction: column;
+	width: 55%;
+	padding: 0px;
+	margin-right: 3%;
+}
+
+.sp-container-right {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	padding: 0px;
+}
+
+
+.sp-flex-container {
+	display: flex;
+	align-items: top;
+}
+
+.sp-flex-left,
+.sp-flex-right {
+	display: flex;
+	flex-direction: column;
+	width: 47%;
+}
+
+
+.sp-flex-left {
+	margin-right: 6%;
+}
+
+
+/*
+.sp-flex-left .uk-form-label {
+	display: block;
+}
+*/
+
+
+
+
+
+
+
+.created-changed {
+	display: block;
+	width: 50%;
+	margin-top: 20px;
+	margin-right: auto;
+	padding: 0px;
+}
+
+
+
+
+
+
+label.form {
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.uk-form-controls textarea {
+	border-radius: 5px;
+	width: 100%;
+	margin-top: 5px;
+	font-size: 14px;
+	color: black;
+	background-color: #d4e09b;
+	border: 2px solid #a44a3f;
+}
+
+.uk-form-controls textarea:disabled {
+	border-radius: 5px;
+	width: 100%;
+	margin-top: 5px;
+	font-size: 14px;
+	color: #4D4D4D;
+	background-color: #E1E9B9;
+	border: 2px solid #BF8179;
+}
+
+.uk-form-controls textarea:active,
+.uk-form-controls textarea:focus {
+	background-color: white;
+	border-color: #a44a3f;
+}
+
+.uk-form-controls select {
+	border-radius: 5px;
+	width: 200% ;
+	margin-top: 5px;
+	font-size: 14px;
+	color: black;
+	background-color: #d4e09b;
+	border: 2px solid #a44a3f;
+}
+
+.uk-form-controls select:disabled {
+	border-radius: 5px;
+	width: 200% ;
+	margin-top: 5px;
+	font-size: 14px;
+	color: #4D4D4D;
+	background-color: #E1E9B9;
+	border: 2px solid #BF8179;
+}
+
+.uk-form-controls select:active,
+.uk-form-controls select:focus {
+	background-color: white;
+	border-color: #a44a3f;
+}
+
+.uk-form-controls input[type="text"] {
+	max-width: 100%;
+	margin: 0px;
+	margin-left: 0px;
+	border-radius: 5px;
+	margin-top: 5px;
+	font-size: 14px;
+	color: black;
+	background-color: #d4e09b;
+	border: 2px solid #a44a3f;
+	font-weight: normal;
+}
+
+.uk-form-controls input[type="text"]:disabled {
+	max-width: 100%;
+	margin: 0px;
+	margin-left: 0px;
+	border-radius: 5px;
+	margin-top: 5px;
+	font-size: 14px;
+	color: #4D4D4D;
+	background-color: #E1E9B9;
+	border: 2px solid #BF8179;
+	font-weight: normal;
+}
+
+.uk-form-controls input[type="text"]:focus,
+.uk-form-controls input[type="text"]:active {
+	background-color: white;
+	border-color: #a44a3f;
+}
+
+
+
+
+
+
+
+
+
+
+div.dtControlForm {
+	width:140px!important;
+	background-color:#d4e09b;
+	margin-top:5px;
+	border-radius:5px;
+	border:2px solid #a44a3f;
+}
+div.dtControlForm input {
+	width:100px;
+	color:black;
+	background-color:#d4e09b;
+	font-family:Verdana, Arial, sans-serif;
+	font-size:14px;
+	border-width:0px;
+	margin-top:2px;
+	margin-left:2px;
+	padding-top:3px;
+	padding-bottom:3px;
+	outline:none;
+}
+div.dtControlForm input:disabled {
+	width:100px;
+	color: #4D4D4D;
+	background-color:#E1E9B9;
+	font-family:Verdana, Arial, sans-serif;
+	font-size:14px;
+	border-width:0px;
+	margin-top:2px;
+	margin-left:2px;
+	padding-top:3px;
+	padding-bottom:3px;
+	outline:none;
+}
+div.dtControlForm input:focus,
+div.dtControlForm input:active {
+	background-color:#FFFFFF!important;
+}
+div.dtControlForm span {
+	color:#A8AB9A;
+	cursor:pointer;
+	margin-right:5px;
+	margin-top:3px;
+}
+
+
+
+
+
+
+div.dtControlTb {
+	color:#0072BC;
+	cursor:pointer;
+	width:20px;
+	margin-left:1px;
+	margin-right:1px;
+
+}
+input.dtControlTb {
+	width:70px;
+	margin-left:0px;
+	border-width:1px;
+	border-style:solid;
+	border-color:#EEEEEE;
+	outline:none;
+	color:#000000;
+	font-size:12px;
+	font-family:Tahoma;
+	text-align:right;
+}
+
+
+
+input.inputTb {
+	border-width:1px;
+	border-style:solid;
+	border-color:#EEEEEE;
+	outline:none;
+	color:#000000;
+	font-size:12px;
+	font-family:Tahoma;
+}
+
+input.selectTb {
+	border-width:1px;
+	border-style:solid;
+	border-color:#EEEEEE;
+	outline:none;
+	color:#000000;
+	font-size:12px;
+	font-family:Tahoma;
+}
+
+textarea.inputTb {
+	border-width:1px;
+	border-style:solid;
+	border-color:#EEEEEE;
+	outline:none;
+	color:#000000;
+	font-size:12px;
+	font-family:Tahoma;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+pre {
+	border-width:0px!important;
+	margin:0px!important;
+	padding:0px!important;
+	background-color:transparent!important;
+	color:#339933!important;
+	font-style:italic!important;
+	white-space: pre-wrap!important;
+}
+
+
+
+
+
+
+
+
+
+.sp-add {
+	font-size: 12px;
+	color: #2788c6;
+	font-weight: normal;
+	text-transform: none;
+}
+
+
+
+
+
+
+
+
+
+div.vers {
+	display:none;
+	//position:absolute;
+	position:relative;
+	margin-left:-10px;
+	margin-top:-20px;
+	background-image: url("info.svg");
+	background-color:white;
+	border-radius:10px;
+	cursor:pointer;
+	width:20px;
+	height:20px
+}
+
+div.vers::after {
+	background: rgb(102, 102, 102);
+	color: #FFFFFF;
+	white-space: nowrap;
+	content: "Версии для этого поля"; /* Главная часть кода, определяющая содержимое всплывающей подсказки */
+	margin-top: -24px;
+	opacity: 0; /* Наш элемент прозрачен... */
+	padding: 3px 7px;
+	position: absolute;
+	visibility: hidden; /* ...и скрыт. */
+	transition: all 0.4s ease-in-out; /* Добавить плавности по вкусу */
+}
+div.vers:hover::after {
+	opacity: 1; /* Показываем его */
+	visibility: visible;
+}
